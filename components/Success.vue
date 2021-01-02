@@ -14,7 +14,7 @@
         {{ paymentData.payer.payer_info.last_name }} <br />
         Transaction Status: {{ paymentData.state }}
         <br />
-        Mode of Payment: {{ paymentData.payer.payer_info.payment_method }}
+        Mode of Payment: {{ paymentData.payer.payment_method }}
       </b-col>
       <!-- right side -->
       <b-col cols="12" lg="6" md="6" sm="12">
