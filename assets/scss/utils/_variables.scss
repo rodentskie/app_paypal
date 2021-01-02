@@ -1,0 +1,38 @@
+// Variables
+$whiter: rgba(255, 255, 255, 0.6);
+$primary-color: #333;
+$background-color: #f1f3f4;
+$green: #0d874a;
+$theme-colors: (
+  "submitted": #6fa70e,
+  "primary": #0074d9,
+  "secondary": #757e88,
+  "success": #119955,
+  "intransit": #41800e,
+  "retired": #58806c,
+  "check": #328059,
+  "process": #008058,
+  "danger": #c22f25,
+  "gray": #f1f3f4,
+  "light-blue": #265680,
+  "biotech": #00a651,
+  "pick": #56804b,
+  "yellow": #ffeeba,
+  "gray-outline": #ced4da,
+  "sync": #3498db,
+  "worksheet": #be8f00,
+  "selected": #a8a8a8,
+
+);
+
+$pagination-color: ($green);
+
+$pagination-active-color: (white);
+$pagination-active-bg: ($green);
+$pagination-active-border-color: ($green);
+
+$pagination-hover-color: ($green);
+
+$input-focus-border-color: ($green);
+
+$component-active-bg: ($green);

@@ -1,0 +1,21 @@
+.form-textarea:focus {
+    font-size: 10px;
+    margin: 0px;
+    border-radius: 0;
+    outline: none !important;
+    box-shadow: none;
+    outline-width: 0px;
+    border: 1.2px solid #00a651;
+    border-radius: 3px;
+    transition: 0.5;
+    margin-bottom: 5px;
+    transition: 0.3s;
+  }
+  .form-textarea {
+    font-size: 10px;
+    margin: 0px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+  
+  }

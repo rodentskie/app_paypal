@@ -1,0 +1,15 @@
+.nuxt-table {
+  width: 98.4%;
+  padding-left: 14rem;
+  box-shadow: 2px 3.5px 18px -17px black;
+  transition: all 0.3s;
+
+
+}
+
+@media screen and (max-width: 1175px) {
+  .nuxt-table {
+    padding-left: 70px;
+    transition: all 0.3s;
+  }
+}

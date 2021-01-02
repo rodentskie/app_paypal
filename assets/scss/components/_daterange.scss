@@ -1,0 +1,41 @@
+/* Date Range */
+
+.reportrange-text[data-v-fffebcea] {
+    /* background: #fff; */
+    /* cursor: pointer; */
+    /* padding: 5px 10px; */
+    border: 1px solid #ccc;
+    height: 2rem;
+    width: 14rem;
+    font-size: 12px;
+  }
+  
+  .daterangepicker.show-ranges .drp-calendar.left {
+    position: relative;
+    right: 8px;
+  }
+  
+  .daterangepicker.show-ranges .drp-calendar.left {
+    border-left: 0px solid #ddd;
+  }
+  
+  .daterangepicker .ranges li.active {
+    background-color: #0d874a;
+    color: #fff;
+  }
+  
+  .daterangepicker td.active,
+  .daterangepicker td.active:hover {
+    background-color: #0d874a;
+    border-color: transparent;
+    color: #fff;
+  }
+  
+  .daterangepicker .ranges li.active {
+    background-color: #0d874a;
+    color: #fff;
+  }
+  
+  .reportrange-text[data-v-fffebcea] {
+    width: 230px;
+  }

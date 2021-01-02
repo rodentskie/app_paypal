@@ -1,0 +1,125 @@
+#sidebarBFI {
+  position: fixed;
+  bottom: 0px;
+  background-color: #01401f;
+  height: 100%;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.65), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s;
+  min-width: 224px;
+  max-width: 204px;
+  font-size: 12.5px;
+  z-index: 10;
+  transition: all 0.3s;
+
+}
+
+#sidebarBFI.active {
+  margin-left: -250px;
+}
+
+#sidebarBFI ul.components {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+#sidebarBFI ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebarBFI ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  color: #fff;
+}
+#sidebarBFI ul li a:hover {
+  color: white;
+  background: #01612f;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#sidebarBFI ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #00803e;
+}
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #00803e;
+}
+
+.NavbarLinkBFI /deep/.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #fff;
+  background-color: white;
+  border-color: white white #00a651 white;
+  border-width: 0px 0px 4px 0px;
+  border-radius: 0px;
+  font-weight: bold;
+}
+
+.sidebar-image {
+  transition: none 0.3s;
+
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar-image-mini {
+  transition: none 0.3s;
+
+  width: 0%;
+  display: none;
+}
+
+.form-image {
+  height: 40px;
+  width: 180px;
+}
+
+.component-margin {
+  margin: 3px;
+}
+
+.right {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  margin-right: 1%;
+}
+
+.content {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 1175px) {
+  #sidebarBFI {
+    transition: all 0.4s;
+    min-width: 80px;
+    max-width: 80px;
+  }
+  .route-name {
+    display: none;
+    transition: all 0.3s;
+  }
+  .sidebar-image {
+    display: none !important;
+    transition: none 0.3s;
+  }
+
+  .sidebar-image-mini {
+    border-radius: 50%;
+    background-color: white;
+    padding: 6px;
+    display: block !important;
+    margin-top: 9px;
+    margin-bottom: -11px;
+    width: 60%;
+    transition: none 0.3s;
+  }
+}

@@ -1,0 +1,27 @@
+.hr {
+  padding: 0px;
+  height: 10px;
+}
+
+.hr-form {
+  background-color: #e5e5e5;
+  margin: 0px;
+  height: 1cc;
+}
+
+.hr-style {
+  background-color: #e5e5e5;
+  width: 14.3rem;
+  height: 1cc;
+  position: relative;
+  right: 15px;
+  top: 8px;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 1175px) {
+  .hr-style {
+    width: 79px;
+    transition: all 0.3s;
+  }
+}

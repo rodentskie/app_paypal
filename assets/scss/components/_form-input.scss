@@ -1,0 +1,47 @@
+// .form-text:focus {
+//   font-size: 10px;
+//   margin: 0px;
+//   border-radius: 0;
+//   outline: none !important;
+//   box-shadow: none;
+//   outline-width: 0px;
+//   border: 2px solid #00a651;
+//   border-radius: 3px;
+//   transition: 0.5;
+//   margin-bottom: 5px;
+//   transition: 0.3s;
+// }
+.form-text {
+  font-size: 10px;
+  margin: 0px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+
+}
+
+.currency-input {
+  @extend .form-text;
+  margin: 0px;
+  border-width: 1px;
+  border-radius: 3px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 11px;
+  margin-bottom: 5px;
+  width: 100%;
+  border-left-color: $whiter;
+  border-top-color: $whiter;
+  border-right-color: #ced4da;
+  border-bottom-color: #ced4da;
+}
+
+.currency-input:focus {
+  border: 2px solid #00a651;
+  padding-top: 0.4rem;
+  padding-bottom: 5px;
+}
+
+.custom-select:disabled {
+  color: #000000;
+}

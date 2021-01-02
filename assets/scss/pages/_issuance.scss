@@ -1,0 +1,17 @@
+
+
+  .check-style {
+    font-size: 5px;
+    color: #328059;
+  }
+  
+  .select-all-ps {
+    position: relative;
+    top: 6px;
+  }
+  
+  .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #0d874a;
+    background-color: #0d874a;
+  }

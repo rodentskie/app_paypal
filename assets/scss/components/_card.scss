@@ -1,0 +1,35 @@
+.card-shadow {
+  box-shadow: 0px 8px 18px -19px black;
+}
+
+.pages-card {
+  box-shadow: 7px 5px 18px -17px black;
+  border-radius: 8px;
+}
+
+.log-card {
+  border-radius: 0px;
+  padding: 0px;
+  border-left: 8px solid #00a651;
+  font-size: 14px;
+}
+
+.log-label {
+  color: #00a651;
+  font-size: 1.1rem;
+}
+
+.log-keys {
+  border-radius: 0px;
+  padding-left: 1rem;
+  background-color: #fff;
+}
+
+.log-bullets {
+  font-size: 11px;
+  color: #00a651;
+}
+
+.log-text {
+  color: #004b24;
+}

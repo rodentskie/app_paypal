@@ -1,0 +1,26 @@
+.modal .modal-huge {
+  max-width: 1320px;
+  width: 1320px;
+}
+
+.modal .modal-wide {
+  max-width: 95%;
+  width: 95%;
+}
+
+.modal .modal-log {
+  max-width: 80%;
+  width: 80%;
+}
+
+.modal .modal-smed {
+  max-width: 360px;
+  width: 360px;
+}
+
+@media screen and (max-width: 576px) {
+  .modal .modal-log {
+    max-width: 96%;
+    width: 96%;
+  }
+}

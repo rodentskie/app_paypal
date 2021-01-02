@@ -1,0 +1,38 @@
+.text-emphasize {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+.text-emphasize-padding {
+  @extend .text-emphasize;
+  padding: 0rem 4rem;
+}
+
+.text-underline {
+  border-bottom: 2px solid black;
+}
+
+.text-underline-padding {
+  border-bottom: 2px solid black;
+  padding: 0rem 4rem;
+}
+
+.signature {
+  margin-top: 20rem;
+}
+
+.border-all {
+  border: 2px solid black;
+}
+.border-y {
+  border: 2px solid black;
+  border-width: 2px 0px;
+}
+.border-l {
+  border: 2px solid black;
+  border-width: 0px 0px 2px 2px;
+}
+.border-u {
+  border: 2px solid black;
+  border-width: 0px 2px 2px 2px;
+}

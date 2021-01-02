@@ -1,0 +1,148 @@
+.login-bg {
+  background-color: white;
+}
+
+.login_header {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.login {
+  margin-top: 30px;
+  border: 0px;
+  box-shadow: 0px 10px 15px -12px #000000;
+  transition: 0.5s;
+  border-radius: 17px;
+}
+.login:hover {
+  background: #00a651;
+  border: 0px;
+  box-shadow: 0px 15px 20px -12px #000000;
+  position: relative;
+  bottom: 0.1px;
+}
+
+.title,
+.title2 {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #00a651;
+  letter-spacing: 0;
+}
+
+.enter-pass {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+
+  font-size: 37px;
+  color: #00a651;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.bcard {
+  border: 0px;
+  border-radius: 12px;
+}
+
+.subtitle {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  position: relative;
+  font-style: italic;
+  bottom: 21px;
+  color: #526488;
+  word-spacing: 10px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+}
+
+.subtitle2 {
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 14px;
+  position: relative;
+  bottom: 21px;
+  color: #526488;
+  word-spacing: 10px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+}
+
+input:focus {
+  outline-width: 0px;
+  border-bottom: 2px solid #3ab64a;
+  transition: 0.4s;
+  border-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+
+select:focus {
+  outline-width: 0px;
+  border-bottom: 2px solid #3ab64a;
+  transition: 0.4s;
+  border-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+
+.username,
+.password {
+  transition: 0.4s;
+  background: white;
+  border-bottom: 2px solid gray;
+  border-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  color: #545454;
+  border-top: 0px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: 12px;
+  position: relative;
+  z-index: 2;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: gray;
+}
+
+.change-field-icon {
+  @extend .field-icon;
+  position: relative;
+  top: 18px;
+}
+
+::placeholder {
+  color: #545454;
+  opacity: 1; /* Firefox */
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
